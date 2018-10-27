@@ -1,13 +1,25 @@
-<h1>It must work in Jesus Name!</h1>
+<h1>GITHUB SEARCH APP</h1>
 <div class="container">
   <!-- displaying the user information -->
-
-  <div class="card-deck">
-    <div class="card-body">
-      <h3>{{user.login}}</h3>
-      <p *ngIf='user.name'>{{user.name}}</p>
+  <div class="row">
+    <div class="col-md-5">
+      <div> <img src="{{user.avatar_url}}" class="img-circle" alt="user image"></div>
     </div>
-    <img src="{{user.avatar_url}}" class="img-circle" alt="user image">
-    <button class="btn btn-info btn-sm"><a class="ttc" href="{{user.html_url}}">view profile on github</a></button>
-  </div><br><br>
+
+    <div class="col-md-2">
+      <div class="vl"></div>
+    </div>
+
+    <div class="col-md-5">
+
+      <div class="card-deck">
+        <div class="card-body">
+          <h3>{{user.login}}</h3>
+          <p *ngIf='user.name'>{{user.name}}</p>
+        </div>
+
+        <button class="btn btn-info btn-sm"><a class="ttc" href="{{user.html_url}}">view profile on github</a></button>
+      </div><br><br>
+    </div>
+  </div>
 </div>

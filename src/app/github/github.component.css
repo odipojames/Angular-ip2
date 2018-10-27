@@ -1,0 +1,12 @@
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+}
+.col{
+  border: 0px;
+}
+h1{text-align: center;
+}
+.container{
+  background-color: blue;
+}
