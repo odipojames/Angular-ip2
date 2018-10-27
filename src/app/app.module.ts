@@ -4,11 +4,13 @@ import {HttpClientModule} from '@angular/common/http'
 
 import { AppComponent } from './app.component';
 import { GithubComponent } from './github/github.component';
+import { ReposearchComponent } from './reposearch/reposearch.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GithubComponent
+    GithubComponent,
+    ReposearchComponent
   ],
   imports: [
     BrowserModule,
