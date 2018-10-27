@@ -1,6 +1,6 @@
 .vl {
     border-left: 6px solid green;
-    height: 500px;
+    height: 400px;
 }
 .col{
   border: 0px;
@@ -8,5 +8,5 @@
 h1{text-align: center;
 }
 .container{
-  background-color: blue;
+  background-color: #02486C;
 }
