@@ -12,7 +12,7 @@ This is a webapp that allows the users to search github users and get their user
 
 ## Live Link
 
-**
+https://odipojames.github.io/Angular-ip2/
 
 ### Running the application
 
