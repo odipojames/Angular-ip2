@@ -4,8 +4,8 @@
 <div class="container-fluid">
   <form  action="">
     <div class="form-group">
-      <input type="text" id="search" placeholder="search user" [(ngModel)]='searchItem' name="searchItem" (keyup)='searchIt()'>
-      <button type="submit" class="btn btn-success btn-md">SEARCH</button>
+      <input type="text" id="search" placeholder="search username or reponame" [(ngModel)]='searchItem' name="searchItem" (keyup)='searchIt()'>
+      <button type="submit" class="btn btn-success btn-md" id='button'>SEARCH</button>
     </div>
 
   </form>
@@ -13,8 +13,7 @@
 </div>
 </div>
 
-<!--collecting data for repositories  -->
-
+<!-- display repos -->
 <div class="card-deck">
   <div class="card-title">
     <h4>REPOSITORIES</h4>
@@ -33,7 +32,7 @@
             <p *ngIf='repo.description'>{{repo.description}}</p>
           </div>
           <div class="col-md-1">
-            <button class="btn btn-primary btn-sm"><a class="ttw" target='_blank' href="{{repo.html_url}}">view on github</a></button>
+            <button class="btn btn-secondary btn-sm"><a class="ttw" target='_blank' href="{{repo.html_url}}">view on github</a></button>
           </div>
 
         </div>
