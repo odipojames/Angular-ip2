@@ -4,9 +4,10 @@
 
 export const environment = {
   production: false,
-  apiUrl:'https://api.github.com/users/odipojames?access_token=23648081c3efa06a5eb0fff721237e7b1a0e4855'
-
-
+// apiUrl:'https://api.github.com/users/odipojames?access_token=23648081c3efa06a5eb0fff721237e7b1a0e4855',
+//   format:'https://api.github.com/users/',
+//   token:'23648081c3efa06a5eb0fff721237e7b1a0e4855',
+//   id: 40570916,
 };
 //url:https://api.github.com/users/odipojames?access_token=ea6c98c996e10a9ef8abdd94e53c85a5a7a109b5
 

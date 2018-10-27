@@ -1,12 +1,13 @@
-<h1>Github app</h1>
-<hr>
-<p>welcome to {{user.login}}acount app</p>
-<div>
+<h1>It must work in Jesus Name!</h1>
+<div class="container">
+  <!-- displaying the user information -->
 
-  <ul>
-    <li *ngFor='let public_repo of public_repos'>{{user.public_repo}}</li>
-</ul>
-</div>
-<div>
-  <img src="{{user.avatar_url}}" class="img-circle" alt="user image">
+  <div class="card-deck">
+    <div class="card-body">
+      <h3>{{user.login}}</h3>
+      <p *ngIf='user.name'>{{user.name}}</p>
+    </div>
+    <img src="{{user.avatar_url}}" class="img-circle" alt="user image">
+    <button class="btn btn-info btn-sm"><a class="ttc" href="{{user.html_url}}">view profile on github</a></button>
+  </div><br><br>
 </div>
